@@ -6,8 +6,8 @@ function getRandomCharacter() {
             return response.json();
         })
         .then(function (characters) {
-            var randomIndex = Math.floor(Math.random() * characters.length); //aquí se genera un número aleatorio entre 0 y la cant. de elementos del array
-            var randomCharacter = characters[randomIndex]; //aquí, este número aleatorio resultará en la posición del personaje en el array characters de la API.
+            var randomIndicator = Math.floor(Math.random() * characters.length); //aquí se genera un número aleatorio entre 0 y la cant. de elementos del array
+            var randomCharacter = characters[randomIndicator]; //aquí, este número aleatorio resultará en la posición del personaje en el array characters de la API.
             var characterContainer = document.getElementById('character-container');
             characterContainer.innerHTML = `
           <h2>${randomCharacter.fullName}</h2>
