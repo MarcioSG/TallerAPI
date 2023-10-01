@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(187, 141, 98);
+    height: 100vh;
+}
+
+#button {
+    margin-top: 10px;
+}
+
+#character-container {
+    text-align: center;
+}
+
+
+
+#character-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    width: 400px;
+    max-width: 400px;
+    background-color: #c9b4b4;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)
+}
+
+#character-container h2 {
+    margin-top: 0;
+}
+
+#character-container p {
+    margin-bottom: 10px;
+}
+
+#character-container img {
+    max-width: 100%;
+}
